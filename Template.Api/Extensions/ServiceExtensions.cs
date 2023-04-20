@@ -1,3 +1,6 @@
+using Template.Contracts;
+using Template.LoggerService;
+
 namespace Template.Api.Extensions;
 
 public static class ServiceExtensions
@@ -20,5 +23,9 @@ public static class ServiceExtensions
         services.Configure<IISOptions>(options =>
         {
         });
+
+    public static void ConfigureLoggerService(this IServiceCollection services) =>
+        services.AddSingleton<ILoggerManager, LoggerManager>();
+
 
 }

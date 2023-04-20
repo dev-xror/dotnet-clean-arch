@@ -5,6 +5,10 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.Api", "Template.Api\Template.Api.csproj", "{AB8017B7-33AD-4FAC-AD75-DB803184C117}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.Contracts", "Template.Contracts\Template.Contracts.csproj", "{513334C1-BBD3-4539-B95B-F5AA2D7D9ADE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.LoggerService", "Template.LoggerService\Template.LoggerService.csproj", "{FEF7E8DF-04D6-456E-BE33-16656B67F2C6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{AB8017B7-33AD-4FAC-AD75-DB803184C117}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB8017B7-33AD-4FAC-AD75-DB803184C117}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB8017B7-33AD-4FAC-AD75-DB803184C117}.Release|Any CPU.Build.0 = Release|Any CPU
+		{513334C1-BBD3-4539-B95B-F5AA2D7D9ADE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{513334C1-BBD3-4539-B95B-F5AA2D7D9ADE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{513334C1-BBD3-4539-B95B-F5AA2D7D9ADE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{513334C1-BBD3-4539-B95B-F5AA2D7D9ADE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEF7E8DF-04D6-456E-BE33-16656B67F2C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEF7E8DF-04D6-456E-BE33-16656B67F2C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEF7E8DF-04D6-456E-BE33-16656B67F2C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEF7E8DF-04D6-456E-BE33-16656B67F2C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
